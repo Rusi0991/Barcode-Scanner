@@ -11,7 +11,7 @@ struct BarcodeScannerView: View {
     var body: some View {
         NavigationView {
             VStack(alignment: .center){
-                Rectangle()
+                ScannerView()
                     .frame(width: .infinity, height: 300)
                 
                 Spacer().frame(height: 60)
