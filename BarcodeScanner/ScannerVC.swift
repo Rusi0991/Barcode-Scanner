@@ -80,7 +80,9 @@ final class ScannerVC : UIViewController{
         previewLayer.videoGravity = .resizeAspectFill
         view.layer.addSublayer(previewLayer)
         
-        captureSession.startRunning()
+            self.captureSession.startRunning()
+        
+        
     }
 }
 extension ScannerVC : AVCaptureMetadataOutputObjectsDelegate {
